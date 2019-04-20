@@ -1,0 +1,164 @@
+﻿* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    letter-spacing: 0.966667px;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: white;
+    width: 100%;
+    margin-bottom:1px;
+    padding: 15px;
+}
+/* FOOTER*/
+
+footer {
+    background-color: #232425;
+    padding: 10px;
+    color: white;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.column {
+    float: left;
+    width: 33%;
+}
+.column2 {
+    float: left;
+    width: 48%;
+    text-align: center;
+}
+.column3 {
+    float: left;
+    width: 98%;
+    padding: 20px;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+} 
+#PGOPT {
+    font-size: 16px;
+    letter-spacing: 1.28333px;
+    font-weight: 600;
+    font-family: Helvetica, sans-serif
+}
+#COLHEAD {
+    font-family: 'Trebuchet MS', serif;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    font-size: 20px;
+}
+#ADDRESS {
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 300;
+    vertical-align: baseline;
+}
+/* NAVIGATION */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+li {
+    
+    float: left;
+
+}
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav {
+    background-color: lightgray;
+}
+
+/* LINKS*/
+
+a:visited {
+    color: black;
+}
+form {
+    margin-bottom: 5px;
+}
+
+/* FORMS */
+#FORMS {
+    text-align: left;
+    font-weight: 300;
+}
+#SERVICE {
+    color: #cf0058;
+    font-size: 40px;
+}
+#INFORMATION {
+    font-size: 18px;
+    color: #424242;
+    
+    
+}
+input[type=text] {
+    width: 200px;
+    border: 2px solid #424242;
+}
+
+input:required:invalid, input:focus:invalid {
+    border: 1px solid red;
+}
+input:required:valid, input:focus:valid {
+    border: 1px solid green;
+}
+/* INTRO */
+
+#INTRO {
+    text-align: center;
+    width: 98%;
+    margin: 1%;
+    padding: 1%;
+    float: left
+}
+
+
+/* TABLE FOR DISPLAYING USERS*/
+
+table, th, td {
+    border: 5px solid #991e66;
+    text-align: center;
+    border-collapse: collapse;
+    padding: 15px;
+}
+th {
+    background-color: #008c95;
+}
+
+#results {
+    margin:0 auto;
+    
+}
+td {
+    border-left: none;
+    border-right: none;
+}
+tr:nth-child(even) {
+    background-color: #2f3132;
+    color: white;
+}
+tr:nth-child(even):hover {
+    background-color: white;
+    color: #2f3132;
+}
